@@ -2,7 +2,8 @@
 
 Youtubescraper allows to scrape video data of playlists, but also lets you collect all uploaded videos on a channel.
 The data is scraped using the youtube API. In order to use the script you need to get a authentification file from google
-(See https://developers.google.com/explorer-help/guides/code_samples#python for more information).
+(See https://developers.google.com/explorer-help/guides/code_samples#python for more information). A json file is created where the scraped data is stored in the following format:
+[ { title:"Im a video", description:"this video is about...", img:"https://imageforthevideo.jpg", link:"https://linktothevideo" }, ... ]
 
 Usage examples:
 
