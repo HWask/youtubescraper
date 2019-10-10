@@ -18,3 +18,7 @@ If you want to get all uploaded videos of a channel: python youtube.py --channel
 You can extract a channel id by visiting the desired youtube channel and extracting it from the link in the adress bar of the browser
 e.g. https://www.youtube.com/channel/UCX6b17PVsYBQ0ip5gyeme-Q
 CHANNEL_ID=UCX6b17PVsYBQ0ip5gyeme-Q
+
+
+Dependencies:  google_auth_oauthlib.flow, googleapiclient.discovery, googleapiclient.errors
+See https://developers.google.com/explorer-help/guides/code_samples#python for more information 
