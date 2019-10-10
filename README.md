@@ -4,7 +4,7 @@ Youtubescraper allows to scrape video data of playlists, but also lets you colle
 The data is scraped using the youtube API. In order to use the script you need to get a authentification file from google
 (See https://developers.google.com/explorer-help/guides/code_samples#python for more information).
 
-Usagee examples:
+Usage examples:
 
 python youtube.py --playlists PLAYLIST_ID1 PLAYLIST_ID2
 
